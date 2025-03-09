@@ -1,6 +1,6 @@
 ﻿namespace Library_book_management
 {
-    partial class Form1
+    partial class LibraryForm
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -11,14 +11,14 @@
         /// Освободить все используемые ресурсы.
         /// </summary>
         /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing && (components != null))
+        //    {
+        //        components.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
 
         #region Код, автоматически созданный конструктором форм Windows
 
